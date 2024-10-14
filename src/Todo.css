@@ -1,0 +1,65 @@
+body{
+    background-color: #e0e0e0;
+}
+.todo-container{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.8), -5px -5px 20px rgba(0,0,0, 0.8);
+    border-radius: 20px;
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+h2{
+    color: orange;
+}
+.list{
+    list-style:circle;
+}
+.btn{
+    background-color: #4158D0;
+    background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC  51%, #02AAB0  100%);
+    transition: 0.3s;
+}
+
+input[type='text']{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius:8px ;
+}
+button{
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 8px 12px;
+}
+button:hover{
+    background-position: right center; /* Change the direction of the gradient */
+    background-image: linear-gradient(to left, #02AAB0 0%, #00CDAC  51%, #02AAB0  100%);
+    transform: scale(1.05);
+
+}
+li{
+    padding: 0;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+li button{
+    margin-left: 15px;
+flex-shrink: 0;
+
+}
